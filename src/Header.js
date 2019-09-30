@@ -6,7 +6,7 @@ import './Header.css'
 class Header extends Component {
   render() {
     return (
-      <HeaderBuffer animateOff={this.props.animateOff}>
+      <HeaderBuffer>
         <HeaderContent>
           <HeaderLink text="ABOUT" internalLink="/about"/>
           <HeaderLink text="PROJECTS" internalLink="/projects"/>
@@ -43,7 +43,7 @@ class HeaderContent extends Component {
   render() {
     return (
       <div className="HeaderContent" data-aos="header-out" data-aos-anchor=".HeaderAnchor"
-           data-aos-anchor-placement="top-top" data-aos-duration="300">
+           data-aos-anchor-placement="bottom-top" data-aos-duration="300" data-aos-offset="10">
         {this.props.children}
       </div>
     );

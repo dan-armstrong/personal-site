@@ -14,17 +14,6 @@ import plannerRender from './renders/planner.png';
 import lemmingsRender from './renders/lemmings.png';
 import mazeRender from './renders/maze.png';
 
-/*
-<div className="MobilePage d-xs-none">
-  <BrowserRouter>
-    <Page>
-      <About/>
-      <Projects/>
-    </Page>
-  </BrowserRouter>
-</div>
-*/
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -144,7 +133,7 @@ class About extends Component {
         <Section title="BACKGROUND">
           I'm Dan: a second-year computer scientist at the <SectionLink link="http://www.cs.ox.ac.uk/">University of Oxford</SectionLink>.
           I've just finished a summer internship at <SectionLink link="https://www.ocadotechnology.com/">Ocado Technology</SectionLink>, where I worked on path planning for autonomous robots.
-          As a programmer I'm interested in projects that push boundaries - whether these be personal, technological or societal.
+          As a programmer, I'm interested in projects that push boundaries - whether these be personal, technological or societal.
           Each of my personal projects represents something I wanted to teach myself about - whether it be robotics, machine learning or full-stack web development.
         </Section>
         <Section title="INTERESTS">
@@ -162,9 +151,25 @@ class About extends Component {
             Because of my contributions, I was asked to write a paper on my work (still being drafted - watch this space!).
           </SubSection>
           <SubSection title="TECHNOLOGY OFFICER, MAGDALEN BALL" date="May 2019 - Jun 2020">
-
+            As the technology officer for the 2020 Magdalen ball, I built an online ticketing site to handle ticket purchases using a Node.js/React stack.
+            It handles payments through Stripe and will save the committee £7000 in fees.
+            I am also in charge of web design for the main ball website.
           </SubSection>
         </Section>
+
+        <Section title="EDUCATION">
+          <SubSection title="UNIVERSITY OF OXFORD" date="2018 - 2021">
+            I'm currently studying for a BA in Computer Science at <SectionLink link="http://www.magd.ox.ac.uk/">Magdalen College</SectionLink>.
+            I'm taking modules in machine learning, algorithms, data structures and artificial intelligence.
+            This year I was awarded the Demy Scholarship by my college, for outstanding results in first year examinations (I placed 11th in the year).
+          </SubSection>
+          <SubSection title="EXETER MATHEMATICS SCHOOL" date="2016 - 2018">
+            I studied 3 A Levels in Maths (A*), Further Maths (A*) and Computer Science (A*), as well as an AS Level in English Literature (A).
+            Here I learned about data structures, search & sorting algorithms and the fundamentals of the Internet.
+            I took classes on TCP/IP and other network protocols, as well as SQL and computer architecture.
+          </SubSection>
+        </Section>
+
         <Section title="SKILLS" hideMobile="true">
           <div className="row">
             <div className="col-6 col-xxs-4">
@@ -183,19 +188,6 @@ class About extends Component {
               </SubSection>
             </div>
           </div>
-        </Section>
-
-        <Section title="EDUCATION">
-          <SubSection title="UNIVERSITY OF OXFORD" date="2018 - 2021">
-            I'm currently studing for a BA in Computer Science at <SectionLink link="http://www.magd.ox.ac.uk/">Magdalen College</SectionLink>.
-            I'm taking modules in machine learning, algorithms, data structures and artificial intelligence.
-            This year I was awarded the Demy Scholarship by my college, for outstanding results in first year examinations (I placed 11th in the year).
-          </SubSection>
-          <SubSection title="EXETER MATHEMATICS SCHOOL" date="2016 - 2018">
-            I studied 3 A Levels in Maths (A*), Further Maths (A*) and Computer Science (A*), as well as an AS Level in English Literature (A).
-            Here I learned about data structures, search & sorting algorithms and the fundamentals of the Internet.
-            I took classes on TCP/IP and other network protocols, as well as SQL and computer architecture.
-          </SubSection>
         </Section>
       </>
     );
@@ -270,9 +262,9 @@ class LemmingsProject extends Component {
 
   render() {
     return (
-      <Section title="Lemmings">
+      <Section title="LEMMINGS">
         <SubSection title="INTRODUCTION">
-          Lemmings is an experiment into self-driving cars. It uses neural networks to teach the bots how to navigate the race course, with the learning being acheived by evolutionary algorithms. Behind the text is an example of the program in action, with each pink/blue dot representing a single bot (or lemming, as they are affectionately known). Be patient, the video may take a small amount of time to lead. The blue bots represent the best 15% from the previous generation. The bots are entirely implemented by my own code from the ground-up: no TensorFlow, no scikit-learn and no matrix libraries.
+          Lemmings is an experiment into self-driving cars. It uses neural networks to teach the bots how to navigate the race course, with the learning being achieved by evolutionary algorithms. Behind the text is an example of the program in action, with each pink/blue dot representing a single bot (or lemming, as they are affectionately known). Be patient, the video may take a small amount of time to lead. The blue bots represent the best 15% from the previous generation. The bots are entirely implemented by my own code from the ground-up: no TensorFlow, no scikit-learn and no matrix libraries.
           <div className="video-container">
             <iframe src="https://www.youtube.com/embed/kRsj2T69STA" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
@@ -285,8 +277,8 @@ class LemmingsProject extends Component {
         </SubSection>
 
         <SubSection title="LEARNING">
-          The network learns through an evolutionary algorithm, whereby each bot is assigned a score and bots with the greatest score are kept to be bred for the next generation. The score is calculated by the distance the bot has travelled around the course. If the bot completes the course, a completion bonus is added as well as a speed factor. The bots are then ordered by score, highest to lowest. The top 15% of bots are kept and added to the new generation. This top 15% are then mutated slightly to create the next 40%. Bots are then randomly selected (with higher-scoring bots weighted more) and mutated more to create the next 20%. Bots are then bred and mutated to make up the rest of the next generation, with each generation having 75 bots.
-          <br/><br/>With these techniques, I was able to create neural networks that could race any track I gave them. Random courses were generated and the bots performed well on them when trained on different data, proving overfitting was not an issue.
+          The network learns through an evolutionary algorithm, whereby each bot is assigned a score and bots with the greatest score are kept to be bred for the next generation. The score is calculated by the distance the bot has travelled around the course. If the bot completes the course, a completion bonus is added as well as a speed factor. The bots are then ordered by score, highest to lowest. The top 15% of bots are kept and added to the new generation. This top 15% are then mutated slightly to create the next 40%. Bots are then randomly selected (with higher-scoring bots weighted more) and mutated to create the next 20%. Bots are then bred and mutated to make up the rest of the next generation, with each generation having 75 bots.
+          With these techniques, I was able to create neural networks that could race any track I gave them. Random courses were generated and the bots performed well on them when trained on different data, proving overfitting was not an issue.
         </SubSection>
       </Section>
     );

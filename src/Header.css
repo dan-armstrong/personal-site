@@ -54,6 +54,8 @@
 .HeaderAnchor {
   position: absolute;
   top: 1rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 [data-aos="header-out"] {
