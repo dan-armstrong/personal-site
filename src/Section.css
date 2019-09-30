@@ -1,0 +1,149 @@
+.Section {
+  font-size: 1rem;
+  padding: 0% 3%;
+}
+
+.Section + .Section {
+  padding-top: 2.5rem;
+}
+
+.SectionTitle {
+  font-weight: 400;
+  font-size: 1.13rem;
+  color: rgb(254,67,101);
+  padding: 0rem 0rem 0.2rem 0rem;
+}
+
+.SectionContent {
+  padding: 0% 0%;
+}
+
+.SubSection + .SubSection {
+  padding-top: 1rem;
+}
+
+.SubSection + .TitledSubSection {
+  padding-top: 1.75rem;
+}
+
+.SubSectionTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 0.15rem;
+}
+
+.SubSectionTitleDate {
+  font-style: italic;
+  font-weight: 300;
+  text-align: right;
+}
+
+.ImageSubSection + .ImageSubSection {
+  padding-top: 2.5rem;
+}
+
+@media (max-width: 567px), (min-width: 667px) and (max-width: 767px) {
+  .ImageSubSection.Right .ImageSubSectionLabel {
+    text-align: left;
+  }
+  .ImageSubSection.Right .ArrowRotator {
+    float: right;
+    transform: rotate(180deg) translate(0rem, 0.05rem);
+  }
+  .ImageSubSection.Right {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.ImageSubSectionData img {
+  width: 100%;
+}
+
+.ImageSubSectionLabel {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+}
+
+.ImageSubSectionLabel.Right {
+  text-align: right;
+}
+
+.ImageSubSectionTitle {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 0.15rem;
+}
+
+.ImageSubSectionTitle * {
+  display: inline-block;
+}
+
+.ImageSubSectionTitle img {
+  position: relative;
+  height: 0.87rem;
+  top: -0.2ex;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.ImageSubSectionLabel.Left img {
+  left: 0.5rem;
+}
+
+.ImageSubSectionLabel.Right img {
+  right: 0.5rem;
+}
+
+.ImageSubSectionLabel:hover {
+  cursor: pointer;
+}
+
+.ImageSubSectionLabel.Left:hover img {
+  transform: translate(0.67rem, 0);
+}
+
+.ImageSubSectionLabel.Right:hover img {
+  transform: translate(-0.67rem, 0);
+}
+
+.SectionLink.SectionLink { /* Required to override BootStrap colors */
+  word-break: break-word;
+  font-weight: 600;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+}
+
+.SectionLink.SectionLink:hover {
+  color: rgb(30,30,30);
+  cursor: pointer;
+}
+
+.SectionLink.SectionLink:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: rgb(30,30,30);
+  height: 0.125rem;
+  -webkit-transition: left 0.2s ease-out, right 0.2s ease-out;
+  transition: left 0.2s ease-out, right 0.2s ease-out;
+}
+
+.SectionLink.SectionLink:hover:before {
+  left: 0;
+  right: 0;
+}

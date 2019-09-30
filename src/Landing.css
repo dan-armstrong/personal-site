@@ -1,0 +1,355 @@
+.Landing {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.Logo {
+  width: 80%;
+  max-height: 10rem;
+}
+
+@media (max-width: 667px) {
+  .Logo {
+    width: 95%;
+  }
+}
+
+@media (min-width: 667px) and (max-width: 767px) {
+  .Logo {
+    width: 87.5%;
+  }
+}
+
+.Landing {
+  transition: opacity 0.3s ease 0.4s;
+}
+
+.Landing.landing-exit-active {
+  opacity: 0;
+}
+
+.Landing .Header, .Landing.landing-enter.landing-enter-active .Header {
+  opacity: 1;
+  transition: opacity 0.5s linear 0.2s;
+}
+
+.Landing.landing-enter .Header {
+  opacity: 0;
+}
+
+.Logo path {
+  transition: stroke-dashoffset 1s ease;
+  stroke: rgb(30, 30, 30);
+}
+
+.landing-enter #D1 {
+  stroke-dashoffset: -20;
+}
+#D1, .landing-enter.landing-enter-active #D1 {
+  stroke-dasharray: 90 1000;
+  stroke-dashoffset: -20;
+}
+.landing-exit-active #D1 {
+  stroke-dashoffset: 90;
+}
+
+.landing-enter #D2 {
+  stroke-dashoffset: -90;
+}
+#D2, .landing-enter.landing-enter-active #D2 {
+  stroke-dasharray: 52 1000;
+  stroke-dashoffset: -15;
+}
+.landing-exit-active #D2 {
+  stroke-dashoffset: 60;
+}
+
+.landing-enter #A1 {
+  stroke-dashoffset: 80;
+}
+#A1, .landing-enter.landing-enter-active #A1 {
+  stroke-dasharray: 80 1000;
+  stroke-dashoffset: -14;
+}
+.landing-exit-active #A1 {
+  stroke-dashoffset: -105;
+}
+
+.landing-enter #A2 {
+  stroke-dashoffset: 35;
+}
+#A2, .landing-enter.landing-enter-active #A2 {
+  stroke-dasharray: 30 1000;
+  stroke-dashoffset: -14;
+}
+.landing-exit-active #A2 {
+  stroke-dashoffset: -57;
+}
+
+.landing-enter #A3 {
+  stroke-dashoffset: -52;
+}
+#A3, .landing-enter.landing-enter-active #A3 {
+  stroke-dasharray: 32 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #A3 {
+  stroke-dashoffset: 35;
+}
+
+.landing-enter #N1 {
+  stroke-dashoffset: 100;
+}
+#N1, .landing-enter.landing-enter-active #N1 {
+  stroke-dasharray: 95 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #N1 {
+  stroke-dashoffset: -115;
+}
+
+.landing-enter #N2 {
+  stroke-dashoffset: 100;
+}
+#N2, .landing-enter.landing-enter-active #N2 {
+  stroke-dasharray: 90 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #N2 {
+  stroke-dashoffset: -115;
+}
+
+.landing-enter #A4 {
+  stroke-dashoffset: 80;
+}
+#A4, .landing-enter.landing-enter-active #A4 {
+  stroke-dasharray: 80 1000;
+  stroke-dashoffset: -14;
+}
+.landing-exit-active #A4 {
+  stroke-dashoffset: -105;
+}
+
+.landing-enter #A5 {
+  stroke-dashoffset: 35;
+}
+#A5, .landing-enter.landing-enter-active #A5 {
+  stroke-dasharray: 30 1000;
+  stroke-dashoffset: -14;
+}
+.landing-exit-active #A5 {
+  stroke-dashoffset: -57;
+}
+
+.landing-enter #A6 {
+  stroke-dashoffset: -52;
+}
+#A6, .landing-enter.landing-enter-active #A6 {
+  stroke-dasharray: 32 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #A6 {
+  stroke-dashoffset: 35;
+}
+
+.landing-enter #R1 {
+  stroke-dashoffset: -110;
+}
+#R1, .landing-enter.landing-enter-active #R1 {
+  stroke-dasharray: 85 1000;
+  stroke-dashoffset: -15;
+}
+.landing-exit-active #R1 {
+  stroke-dashoffset: 85;
+}
+
+.landing-enter #R2 {
+  stroke-dashoffset: -60;
+}
+#R2, .landing-enter.landing-enter-active #R2 {
+  stroke-dasharray: 35 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #R2 {
+  stroke-dashoffset: 40;
+}
+
+.landing-enter #R3 {
+  stroke-dashoffset: -35;
+}
+#R3, .landing-enter.landing-enter-active #R3 {
+  stroke-dasharray: 22 1000;
+  stroke-dashoffset: -5;
+}
+.landing-exit-active #R3 {
+  stroke-dashoffset: 25;
+}
+
+.landing-enter #M1 {
+  stroke-dashoffset: -161;
+}
+#M1, .landing-enter.landing-enter-active #M1 {
+  stroke-dasharray: 140 1000;
+  stroke-dashoffset: -5;
+}
+.landing-exit-active #M1 {
+  stroke-dashoffset: 140;
+}
+
+.landing-enter #M2 {
+  stroke-dashoffset: 105;
+}
+#M2, .landing-enter.landing-enter-active #M2 {
+  stroke-dasharray: 105 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #M2 {
+  stroke-dashoffset: -125;
+}
+
+.landing-enter #S1 {
+  stroke-dashoffset: -75;
+}
+#S1, .landing-enter.landing-enter-active #S1 {
+  stroke-dasharray: 55 1000;
+  stroke-dashoffset: -5;
+}
+.landing-exit-active #S1 {
+  stroke-dashoffset: 55;
+}
+
+.landing-enter #S2 {
+  stroke-dashoffset: -75;
+}
+#S2, .landing-enter.landing-enter-active #S2 {
+  stroke-dasharray: 55 1000;
+  stroke-dashoffset: -5;
+}
+.landing-exit-active #S2 {
+  stroke-dashoffset: 55;
+}
+
+.landing-enter #T1 {
+  stroke-dashoffset: -80;
+}
+#T1, .landing-enter.landing-enter-active #T1 {
+  stroke-dasharray: 60 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #T1 {
+  stroke-dashoffset: 60;
+}
+
+.landing-enter #T2 {
+  stroke-dashoffset: -65;
+}
+#T2, .landing-enter.landing-enter-active #T2 {
+  stroke-dasharray: 50 1000;
+  stroke-dashoffset: -5;
+}
+.landing-exit-active #T2 {
+  stroke-dashoffset: 50;
+}
+
+.landing-enter #R4 {
+  stroke-dashoffset: -110;
+}
+#R4, .landing-enter.landing-enter-active #R4 {
+  stroke-dasharray: 85 1000;
+  stroke-dashoffset: -15;
+}
+.landing-exit-active #R4 {
+  stroke-dashoffset: 85;
+}
+
+.landing-enter #R5 {
+  stroke-dashoffset: -60;
+}
+#R5, .landing-enter.landing-enter-active #R5 {
+  stroke-dasharray: 35 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #R5 {
+  stroke-dashoffset: 40;
+}
+
+.landing-enter #R6 {
+  stroke-dashoffset: -35;
+}
+#R6, .landing-enter.landing-enter-active #R6 {
+  stroke-dasharray: 22 1000;
+  stroke-dashoffset: -5;
+}
+.landing-exit-active #R6 {
+  stroke-dashoffset: 25;
+}
+
+.landing-enter #O1 {
+  stroke-dashoffset: -125;
+}
+#O1, .landing-enter.landing-enter-active #O1 {
+  stroke-dasharray: 100 1000;
+  stroke-dashoffset: -5;
+}
+.landing-exit-active #O1 {
+  stroke-dashoffset: 100;
+}
+
+.landing-enter #O2 {
+  stroke-dashoffset: -67;
+}
+#O2, .landing-enter.landing-enter-active #O2 {
+  stroke-dasharray: 50 1000;
+  stroke-dashoffset: -5;
+}
+.landing-exit-active #O2 {
+  stroke-dashoffset: 50;
+}
+
+.landing-enter #N3 {
+  stroke-dashoffset: 100;
+}
+#N3, .landing-enter.landing-enter-active #N3 {
+  stroke-dasharray: 95 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #N3 {
+  stroke-dashoffset: -115;
+}
+
+.landing-enter #N4 {
+  stroke-dashoffset: 90;
+}
+#N4, .landing-enter.landing-enter-active #N4 {
+  stroke-dasharray: 90 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #N4 {
+  stroke-dashoffset: -115;
+}
+
+.landing-enter #G1 {
+  stroke-dashoffset: 80;
+}
+#G1, .landing-enter.landing-enter-active #G1 {
+  stroke-dasharray: 77 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #G1 {
+  stroke-dashoffset: -100;
+}
+
+.landing-enter #G2 {
+  stroke-dashoffset: 90;
+}
+#G2, .landing-enter.landing-enter-active #G2 {
+  stroke-dasharray: 90 1000;
+  stroke-dashoffset: -10;
+}
+.landing-exit-active #G2 {
+  stroke-dashoffset: -120;
+}

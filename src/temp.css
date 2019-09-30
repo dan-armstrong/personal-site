@@ -1,0 +1,457 @@
+#D2 {
+  animation: D2-on 1s forwards;
+}
+svg:hover #D2 {
+  animation: D2-off 1s forwards;
+}
+svg:hover #D2 {
+  animation: D2-off 1s forwards;
+}
+@keyframes D2-on {
+  from {stroke-dashoffset: -90;}
+  to {stroke-dashoffset: -15;}
+}
+@keyframes D2-off {
+  from {stroke-dashoffset: -15;}
+  to {stroke-dashoffset: 60;}
+}
+
+#A1 {
+  stroke-dasharray: 80 1000;
+  animation: A1-on 1s forwards;
+}
+svg:hover #A1 {
+  animation: A1-off 1s forwards;
+}
+svg:hover #A1 {
+  animation: A1-off 1s forwards;
+}
+@keyframes A1-on {
+  from {stroke-dashoffset: 80;}
+  to {stroke-dashoffset: -14;}
+}
+@keyframes A1-off {
+  from {stroke-dashoffset: -14;}
+  to {stroke-dashoffset: -105;}
+}
+
+#A2 {
+  stroke-dasharray: 30 1000;
+  animation: A2-on 1s forwards;
+}
+svg:hover #A2 {
+  animation: A2-off 1s forwards;
+}
+svg:hover #A2 {
+  animation: A2-off 1s forwards;
+}
+@keyframes A2-on {
+  from {stroke-dashoffset: 35;}
+  to {stroke-dashoffset: -14;}
+}
+@keyframes A2-off {
+  from {stroke-dashoffset: -14;}
+  to {stroke-dashoffset: -57;}
+}
+
+#A3 {
+  stroke-dasharray: 32 1000;
+  animation: A3-on 1s forwards;
+}
+svg:hover #A3 {
+  animation: A3-off 1s forwards;
+}
+svg:hover #A3 {
+  animation: A3-off 1s forwards;
+}
+@keyframes A3-on {
+  from {stroke-dashoffset: -52;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes A3-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: 35;}
+}
+
+#N1 {
+  stroke-dasharray: 95 1000;
+  animation: N1-on 1s forwards;
+}
+svg:hover #N1 {
+  animation: N1-off 1s forwards;
+}
+svg:hover #N1 {
+  animation: N1-off 1s forwards;
+}
+@keyframes N1-on {
+  from {stroke-dashoffset: 90;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes N1-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: -115;}
+}
+
+#N2 {
+  stroke-dasharray: 90 1000;
+  animation: N2-on 1s forwards;
+}
+svg:hover #N2 {
+  animation: N2-off 1s forwards;
+}
+svg:hover #N2 {
+  animation: N2-off 1s forwards;
+}
+@keyframes N2-on {
+  from {stroke-dashoffset: 90;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes N2-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: -115;}
+}
+
+#A4 {
+  stroke-dasharray: 80 1000;
+  animation: A4-on 1s forwards;
+}
+svg:hover #A4 {
+  animation: A4-off 1s forwards;
+}
+svg:hover #A4 {
+  animation: A4-off 1s forwards;
+}
+@keyframes A4-on {
+  from {stroke-dashoffset: 80;}
+  to {stroke-dashoffset: -14;}
+}
+@keyframes A4-off {
+  from {stroke-dashoffset: -14;}
+  to {stroke-dashoffset: -105;}
+}
+
+#A5 {
+  stroke-dasharray: 30 1000;
+  animation: A5-on 1s forwards;
+}
+svg:hover #A5 {
+  animation: A5-off 1s forwards;
+}
+svg:hover #A5 {
+  animation: A5-off 1s forwards;
+}
+@keyframes A5-on {
+  from {stroke-dashoffset: 35;}
+  to {stroke-dashoffset: -14;}
+}
+@keyframes A5-off {
+  from {stroke-dashoffset: -14;}
+  to {stroke-dashoffset: -57;}
+}
+
+#A6 {
+  stroke-dasharray: 32 1000;
+  animation: A6-on 1s forwards;
+}
+svg:hover #A6 {
+  animation: A6-off 1s forwards;
+}
+svg:hover #A6 {
+  animation: A6-off 1s forwards;
+}
+@keyframes A6-on {
+  from {stroke-dashoffset: -52;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes A6-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: 35;}
+}
+
+#R1 {
+  stroke-dasharray: 85 1000;
+  animation: R1-on 1s forwards;
+}
+svg:hover #R1 {
+  animation: R1-off 1s forwards;
+}
+@keyframes R1-on {
+  from {stroke-dashoffset: -110;}
+  to {stroke-dashoffset: -15;}
+}
+@keyframes R1-off {
+  from {stroke-dashoffset: -15;}
+  to {stroke-dashoffset: 85;}
+}
+
+#R2 {
+  stroke-dasharray: 35 1000;
+  animation: R2-on 1s forwards;
+}
+svg:hover #R2 {
+  animation: R2-off 1s forwards;
+}
+@keyframes R2-on {
+  from {stroke-dashoffset: -60;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes R2-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: 40;}
+}
+
+#R3 {
+  stroke-dasharray: 22 1000;
+  animation: R3-on 1s forwards;
+}
+svg:hover #R3 {
+  animation: R3-off 1s forwards;
+}
+@keyframes R3-on {
+  from {stroke-dashoffset: -35;}
+  to {stroke-dashoffset: -5;}
+}
+@keyframes R3-off {
+  from {stroke-dashoffset: -5;}
+  to {stroke-dashoffset: 25;}
+}
+
+#M1 {
+  stroke-dasharray: 140 1000;
+  animation: M1-on 1s forwards;
+}
+svg:hover #M1 {
+  animation: M1-off 1s forwards;
+}
+@keyframes M1-on {
+  from {stroke-dashoffset: -161;}
+  to {stroke-dashoffset: -5;}
+}
+@keyframes M1-off {
+  from {stroke-dashoffset: -5;}
+  to {stroke-dashoffset: 140;}
+}
+
+#M2 {
+  stroke-dasharray: 105 1000;
+  animation: M2-on 1s forwards;
+}
+svg:hover #M2 {
+  animation: M2-off 1s forwards;
+}
+@keyframes M2-on {
+  from {stroke-dashoffset: 105;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes M2-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: -125;}
+}
+
+#S1 {
+  stroke-dasharray: 55 1000;
+  animation: S1-on 1s forwards;
+}
+svg:hover #S1 {
+  animation: S1-off 1s forwards;
+}
+@keyframes S1-on {
+  from {stroke-dashoffset: -75;}
+  to {stroke-dashoffset: -5;}
+}
+@keyframes S1-off {
+  from {stroke-dashoffset: -5;}
+  to {stroke-dashoffset: 55;}
+}
+
+#S2 {
+  stroke-dasharray: 55 1000;
+  animation: S2-on 1s forwards;
+}
+svg:hover #S2 {
+  animation: S2-off 1s forwards;
+}
+@keyframes S2-on {
+  from {stroke-dashoffset: -75;}
+  to {stroke-dashoffset: -5;}
+}
+@keyframes S2-off {
+  from {stroke-dashoffset: -5;}
+  to {stroke-dashoffset: 55;}
+}
+
+#T1 {
+  stroke-dasharray: 60 1000;
+  animation: T1-on 1s forwards;
+}
+svg:hover #T1 {
+  animation: T1-off 1s forwards;
+}
+@keyframes T1-on {
+  from {stroke-dashoffset: -80;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes T1-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: 60;}
+}
+
+#T2 {
+  stroke-dasharray: 50 1000;
+  animation: T2-on 1s forwards;
+}
+svg:hover #T2 {
+  animation: T2-off 1s forwards;
+}
+@keyframes T2-on {
+  from {stroke-dashoffset: -65;}
+  to {stroke-dashoffset: -5;}
+}
+@keyframes T2-off {
+  from {stroke-dashoffset: -5;}
+  to {stroke-dashoffset: 50;}
+}
+
+#R4 {
+  stroke-dasharray: 85 1000;
+  animation: R4-on 1s forwards;
+}
+svg:hover #R4 {
+  animation: R4-off 1s forwards;
+}
+@keyframes R4-on {
+  from {stroke-dashoffset: -110;}
+  to {stroke-dashoffset: -15;}
+}
+@keyframes R4-off {
+  from {stroke-dashoffset: -15;}
+  to {stroke-dashoffset: 85;}
+}
+
+#R5 {
+  stroke-dasharray: 35 1000;
+  animation: R5-on 1s forwards;
+}
+svg:hover #R5 {
+  animation: R5-off 1s forwards;
+}
+@keyframes R5-on {
+  from {stroke-dashoffset: -60;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes R5-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: 40;}
+}
+
+#R6 {
+  stroke-dasharray: 22 1000;
+  animation: R6-on 1s forwards;
+}
+svg:hover #R6 {
+  animation: R6-off 1s forwards;
+}
+@keyframes R6-on {
+  from {stroke-dashoffset: -35;}
+  to {stroke-dashoffset: -5;}
+}
+@keyframes R6-off {
+  from {stroke-dashoffset: -5;}
+  to {stroke-dashoffset: 25;}
+}
+
+#O1 {
+  stroke-dasharray: 100 1000;
+  animation: O1-on 1s forwards;
+}
+svg:hover #O1 {
+  animation: O1-off 1s forwards;
+}
+@keyframes O1-on {
+  from {stroke-dashoffset: -125;}
+  to {stroke-dashoffset: -5;}
+}
+@keyframes O1-off {
+  from {stroke-dashoffset: -5;}
+  to {stroke-dashoffset: 100;}
+}
+
+#O2 {
+  stroke-dasharray: 50 1000;
+  animation: O2-on 1s forwards;
+}
+svg:hover #O2 {
+  animation: O2-off 1s forwards;
+}
+@keyframes O2-on {
+  from {stroke-dashoffset: -67;}
+  to {stroke-dashoffset: -5;}
+}
+@keyframes O2-off {
+  from {stroke-dashoffset: -5;}
+  to {stroke-dashoffset: 50;}
+}
+
+#N3 {
+  stroke-dasharray: 95 1000;
+  animation: N3-on 1s forwards;
+}
+svg:hover #N3 {
+  animation: N3-off 1s forwards;
+}
+@keyframes N3-on {
+  from {stroke-dashoffset: 90;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes N3-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: -115;}
+}
+
+#N4 {
+  stroke-dasharray: 90 1000;
+  animation: N4-on 1s forwards;
+}
+svg:hover #N4 {
+  animation: N4-off 1s forwards;
+}
+@keyframes N4-on {
+  from {stroke-dashoffset: 90;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes N4-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: -115;}
+}
+
+#G1 {
+  stroke-dasharray: 77 1000;
+  animation: G1-on 1s forwards;
+}
+svg:hover #G1 {
+  animation: G1-off 1s forwards;
+}
+@keyframes G1-on {
+  from {stroke-dashoffset: 80;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes G1-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: -100;}
+}
+
+#G2 {
+  stroke-dasharray: 90 1000;
+  animation: G2-on 1s forwards;
+}
+svg:hover #G2 {
+  animation: G2-off 1s forwards;
+}
+@keyframes G2-on {
+  from {stroke-dashoffset: 90;}
+  to {stroke-dashoffset: -10;}
+}
+@keyframes G2-off {
+  from {stroke-dashoffset: -10;}
+  to {stroke-dashoffset: -120;}
+}
